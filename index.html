@@ -8,16 +8,77 @@
     <title>UFO</title>
 </head>
 
-<body>
-    <main>
-        <div>
-            <h1>404</h1>
-            <p>Page not found</p>
-            <a href="#">Go to Home</a>
+<body style="">
+
+    <main style="display: inline-block;
+                width: 60%;
+                margin-left: 20%;
+                margin-top: 100px;">
+        <div style="width: 50%;
+                    float: left;
+                    margin-top: 110px;">
+            <h1 style="font-size: 90px;
+                       margin: 0;
+                       color: rgb(39, 156, 239);">404</h1>
+            <p style="font-size: 30px;
+                      color: rgb(94, 94, 94);
+                      margin-bottom: 30px;
+                      font-weight: bold;
+                      text-transform: uppercase;">Page not found</p>
+            <a style="font-size: 20px;
+                      color: rgb(39, 156, 239);
+                      border: 2px solid rgb(39, 156, 239);
+                      border-radius: 30px;
+                      padding: 10px 30px;
+                      display: inline-block;
+                      text-decoration: none;" href="#">Go to home</a>
         </div>
-        <img src="./ufo2.png" alt="A">
+        <img style="width: 50%;
+                    height: 400px;
+                    float: right;
+                    object-fit: contain;" src="./ufo2.png" alt="UFO">
     </main>
- 
+
 </body>
 
 </html>
+
+<!--
+
+
+KOMENTARAS
+
+i elementa irasome attribute -> style=""
+pvz.: <div style=""></div>
+pvz.: <a href="#">Click me</a>
+pvz.: <a style="" href="#">Click me</a>
+pvz.: <a href="#" style="">Click me</a>
+
+stiliaus taisykles rasymas:
+stiliaus-savybes-pavadinimas: reiksme;
+pvz.:
+color: red;
+font-size: 20px;
+line-height: 100%;
+width: 100%;
+border-top-style: solid;
+
+Elementu tarpusavio atsistumimas:
+margin: 20px;           visomis kryptimis
+margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
+
+Elementu atvaizdavimo budas:
+display: block; default reiksme (dauguma ~ 95%)
+display: none;  nematomas elementas
+display: inline;  nuoroda <a>, buna vienoje eileje su kitais elementais, o jei nebetelpa, toliau atsivaizduoja sekancioje eileje
+display: inline-block;  stengiasi buti vientisas gabalas, jei telpa vienoje eileje, o jei netelpa, krenta i nauja; jei naujoje eileje netelpa,
+tai buna per visa ploti ir kiti elementai krenta dar zemiau
+
+Priverstinis elementu stumdymas horizontaliai:
+float: left;
+float: right;
+
+-->
